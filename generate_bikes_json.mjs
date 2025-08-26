@@ -17,11 +17,27 @@ if (!MODELS_SRC || !SKU_SRC || !RETAILER_SRC) {
 const isHttp = (s) => /^https?:\/\//i.test(s);
 
 async function readCSV(src) {
-  const buf = isHttp(src)
-    ? Buffer.from(await (await fetch(src)).arrayBuffer())
-    : await fs.readFile(src);
-  return parse(buf, { columns: true, skip_empty_lines: true });
+  if (isHttp(src)) {
+    const res = await fetch(src, {
+      // Some Google publish links return HTML unless a UA is present
+      headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' },
+      redirect: 'follow',
+      cache: 'no-store'
+    });
+    const buf = Buffer.from(await res.arrayBuffer());
+    // Quick guard: if it looks like HTML, fail fast with a helpful message
+    const head = buf.slice(0, 100).toString('utf8');
+    if (/<!doctype html/i.test(head) || /<html/i.test(head)) {
+      throw new Error(`Expected CSV but got HTML from: ${src}
+Tip: ensure the link ends with output=csv (Publish to web → CSV) or use the export?format=csv&gid=... form.`);
+    }
+    return parse(buf, { columns: true, skip_empty_lines: true });
+  } else {
+    const buf = await fs.readFile(src);
+    return parse(buf, { columns: true, skip_empty_lines: true });
+  }
 }
+
 
 // helpers
 const norm = (s) => (s ?? '').toString().trim();
