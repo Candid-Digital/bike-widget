@@ -1,0 +1,13 @@
+{
+  "name": "bike-json-generator",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "generate": "node generate_bikes_json.mjs"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
