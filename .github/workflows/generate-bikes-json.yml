@@ -1,0 +1,33 @@
+name: Generate bikes.json (daily)
+
+on:
+  schedule:
+    - cron: "15 4 * * *"     # runs daily at 04:15 UTC
+  workflow_dispatch: {}       # allow manual Run workflow
+
+permissions:
+  contents: write             # needed to commit bikes.json
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Generate bikes.json
+        run: npm run generate
+
+      - name: Commit & push bikes.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p public
+          git add public/bikes.json
+          git commit -m "chore: update bikes.json" || echo "No changes to commit"
+          git push
