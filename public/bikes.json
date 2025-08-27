@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-26T17:38:44.142Z",
+  "generated_at": "2025-08-27T04:35:17.446Z",
   "items": [
     {
       "sku_id": "csid_ae3e59a4",
@@ -2029,6 +2029,21 @@
       "_model_id": "hai2"
     },
     {
+      "sku_id": "csid_96eadaf9",
+      "retailer_join_id": "30203",
+      "brand": "Haibike",
+      "model_name": "Haibike 2025 AllMtn 4 Electric Full Suspension Mountain Bike In Silver, Red & Black Glossy Medium 44cm. Silver, Red & Black Glossy",
+      "model_year": "2025",
+      "frame_size_label": "Medium 44cm.",
+      "colour": "Silver, Red & Black Glossy",
+      "battery_wh": 800,
+      "in_stock": true,
+      "price_sale_gbp": 4199,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-allmtn-4-full-suspension-electric-mountain-bike-in-silver-red-black-gloss-30203/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllMtn-4-Full-Suspension-El_a6888fdb1d1b9b1aa005f8ec253525de.jpg",
+      "_model_id": "hai3"
+    },
+    {
       "sku_id": "csid_ac20c80b",
       "retailer_join_id": "28552",
       "brand": "Haibike",
@@ -2479,6 +2494,21 @@
       "_model_id": "hai18"
     },
     {
+      "sku_id": "csid_45d70ee7",
+      "retailer_join_id": "28534",
+      "brand": "Haibike",
+      "model_name": "Haibike 2025 Hybe CF 9 800Wh Electric Full Suspension MTB In Bronze & Azure & Black Glossy Bronze & Azure & Black Glossy",
+      "model_year": "2025",
+      "frame_size_label": "Large 46cm",
+      "colour": "Bronze & Azure & Black Glossy",
+      "battery_wh": 800,
+      "in_stock": true,
+      "price_sale_gbp": 6599,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-hybe-cf-9-800wh-electric-full-suspension-mtb-in-bronze-azure-black-glossy-28534/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-Hybe-CF-9-800Wh-Electric-Fu_a30800e28370d62488594d49201b03b0.jpg",
+      "_model_id": "hai18"
+    },
+    {
       "sku_id": "csid_c0d1171b",
       "retailer_join_id": "28535",
       "brand": "Haibike",
@@ -2552,6 +2582,21 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-haibike-trekking-65-high-electric-bike-in-toffee-sand-silver-gloss-28485/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-Trekking-65-High-Electric-_9ca9935c82e1185202de897c38223be8.jpg",
       "_model_id": "hai20"
+    },
+    {
+      "sku_id": "csid_8671c4cf",
+      "retailer_join_id": "28486",
+      "brand": "Haibike",
+      "model_name": "Haibike 2025 Trekking 6.5 Low Electric Bike In Toffee, Sand & Silver Gloss Toffee, Sand & Silver Gloss",
+      "model_year": "2025",
+      "frame_size_label": "Small 40cm",
+      "colour": "Toffee, Sand & Silver Gloss",
+      "battery_wh": 600,
+      "in_stock": true,
+      "price_sale_gbp": 3399,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-haibike-trekking-65-low-electric-bike-in-toffee-sand-silver-gloss-28486/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-Trekking-65-Low-Electric-B_4316fdc3b006ba7fe8b1729768b64035.jpg",
+      "_model_id": "hai21"
     },
     {
       "sku_id": "csid_6afd5a08",
