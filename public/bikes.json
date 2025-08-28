@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-27T04:35:17.446Z",
+  "generated_at": "2025-08-28T04:34:48.208Z",
   "items": [
     {
       "sku_id": "csid_ae3e59a4",
@@ -150,6 +150,21 @@
       "_model_id": "cub16"
     },
     {
+      "sku_id": "csid_9d3c5021",
+      "retailer_join_id": "23578",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Editor Hybrid SLT 400X 400Wh Performance SX Electric Bike With Belt Drive & Hub Gears In Goblin Green & Glossy",
+      "model_year": "2025",
+      "frame_size_label": "X-Large 62cm",
+      "colour": "Goblin 'n' Glossy",
+      "battery_wh": 400,
+      "in_stock": true,
+      "price_sale_gbp": 2999,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-slt-400x-400wh-performance-sx-belt-drive-electric-bike-in-goblin-green-glossy-23578/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-SLT-400X-400Wh-Performance-SX-Belt-Drive-Electric-Bike-In-Goblin-Green-Glossyjpg_a72bf4013ea0e2cd3fdc2fea3b45d9eb.jpg",
+      "_model_id": "cub16"
+    },
+    {
       "sku_id": "csid_29054c5c",
       "retailer_join_id": "23580",
       "brand": "Cube",
@@ -223,6 +238,36 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-slx-fe-400x-400wh-performance-sx-hub-gear-electric-bike-in-sleek-grey-spectral-23728/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-SLX-FE-400X-400Wh-Performance-SX-Hub-Gear-Electric-Bike-In-Sleek-Grey-Spectraljpg_f084b4b98e2afd376dc26cd95fddcc2a.jpg",
       "_model_id": "cub19"
+    },
+    {
+      "sku_id": "csid_7b98d2d8",
+      "retailer_join_id": "23729",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Editor Hybrid SLX FE 400X 400Wh Performance SX Electric Bike With Hub Gears In Sleek Grey & Spectral",
+      "model_year": "2025",
+      "frame_size_label": "X-Large 62cm",
+      "colour": "SleekGrey/Spectral",
+      "battery_wh": 400,
+      "in_stock": true,
+      "price_sale_gbp": 2699,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-slx-fe-400x-400wh-performance-sx-hub-gear-electric-bike-in-sleek-grey-spectral-23729/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-SLX-FE-400X-400Wh-Performance-SX-Hub-Gear-Electric-Bike-In-Sleek-Grey-Spectraljpg_f084b4b98e2afd376dc26cd95fddcc2a.jpg",
+      "_model_id": "cub19"
+    },
+    {
+      "sku_id": "csid_84c98725",
+      "retailer_join_id": "24270",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Kathmandu Hybrid C:62 SLT 400X Electric Bike In Stellar & Origanogreen",
+      "model_year": "2025",
+      "frame_size_label": "Cross Bar Large 58cm",
+      "colour": "Stellar / Origanogreen",
+      "battery_wh": 400,
+      "in_stock": true,
+      "price_sale_gbp": 4499,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-c62-slt-400x-electric-bike-in-stellar-origanogreen-24270/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/Kathmandu-Hybrid-C62-SLT-400X-Crossbarjp_87d5e16f11560e0f2c8a050dcde3460a.jpg",
+      "_model_id": "cub27"
     },
     {
       "sku_id": "csid_6c6b227c",
@@ -327,6 +372,21 @@
       "price_sale_gbp": 3299,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-pro-800-electric-bike-in-slab-grey-chrome-26959/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-Pro-800-Easy-_3e2178de57d587a3f16bb3f4bd9cf059.jpg",
+      "_model_id": "cub39"
+    },
+    {
+      "sku_id": "csid_9e7f0fde",
+      "retailer_join_id": "26962",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Kathmandu Hybrid Pro 800 Electric Bike In Slab Grey & Chrome Slab Grey & Chrome",
+      "model_year": "2025",
+      "frame_size_label": "Easy Entry Large 58cm",
+      "colour": "Slab Grey & Chrome",
+      "battery_wh": 800,
+      "in_stock": true,
+      "price_sale_gbp": 3299,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-pro-800-electric-bike-in-slab-grey-chrome-26962/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-Pro-800-Easy-_5ba4c0a32008a79835149722cae05da1.jpg",
       "_model_id": "cub39"
     },
     {
@@ -493,6 +553,21 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/2025-cube-reaction-hybrid-slt-electric-hardtail-mountain-bike-in-solar-eclipse-bronze-27207/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Reaction-Hybrid-SLT-Electric-H_8ebc28904f8a5faffce56a846f49f043.jpg",
       "_model_id": "cub89"
+    },
+    {
+      "sku_id": "csid_bdb1a9b5",
+      "retailer_join_id": "27261",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Stereo Hybrid ONE44 EXC 800 Electric Full Suspension Mountain Bike In Metallic White Marble & Black White MarbleÃ‚Â´nÃ‚Â´Black",
+      "model_year": "2025",
+      "frame_size_label": "Medium",
+      "colour": "White MarbleÂ´nÂ´Black",
+      "battery_wh": 800,
+      "in_stock": true,
+      "price_sale_gbp": 3999,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-cube-stereo-hybrid-one44-exc-electric-full-suspension-mountain-bike-in-metallic-white-marble-black-27261/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Stereo-Hybrid-ONE44-EXC-Electr_4d6af778e24100a26b3a304fb29514fe.jpg",
+      "_model_id": "cub98"
     },
     {
       "sku_id": "csid_ab0a4c46",
@@ -810,6 +885,21 @@
       "_model_id": "cub124"
     },
     {
+      "sku_id": "csid_feeb6fc8",
+      "retailer_join_id": "27365",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Supreme Hybrid Comfort Pro 500 Electric Bike With Enviolo City V2 Hub Gears In Fire Red & Black Fire Red & Black",
+      "model_year": "2025",
+      "frame_size_label": "Easy Entry Large 58cm",
+      "colour": "Fire Red & Black",
+      "battery_wh": 500,
+      "in_stock": true,
+      "price_sale_gbp": 2699,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-supreme-hybrid-comfort-pro-500-easy-entry-continuous-hub-gear-electric-bike-in-fire-red-black-27365/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Supreme-Hybrid-Comfort-Pro-500_e6183c2b175b3f8e75a67db50be019c3.jpg",
+      "_model_id": "cub124"
+    },
+    {
       "sku_id": "csid_f43b552d",
       "retailer_join_id": "27367",
       "brand": "Cube",
@@ -825,6 +915,21 @@
       "_model_id": "cub125"
     },
     {
+      "sku_id": "csid_56bb29d3",
+      "retailer_join_id": "27368",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Supreme Hybrid Comfort Pro 500 Electric Bike With Enviolo City V2 Hub Gears In Grey & Lunar Grey & Lunar",
+      "model_year": "2025",
+      "frame_size_label": "Easy Entry Small 50cm",
+      "colour": "Grey & Lunar",
+      "battery_wh": 500,
+      "in_stock": true,
+      "price_sale_gbp": 2699,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-supreme-hybrid-comfort-pro-500-easy-entry-continuous-hub-gear-electric-bike-in-grey-lunar-27368/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Supreme-Hybrid-Comfort-Pro-500_0f31180b41133e72db7a249a8c17a62b.jpg",
+      "_model_id": "cub125"
+    },
+    {
       "sku_id": "csid_aad8f57b",
       "retailer_join_id": "27372",
       "brand": "Cube",
@@ -836,6 +941,21 @@
       "in_stock": true,
       "price_sale_gbp": 2899,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-supreme-hybrid-comfort-pro-625-easy-entry-continuous-hub-gear-electric-bike-in-fire-red-black-27372/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Supreme-Hybrid-Comfort-Pro-625_365640f8c23f0884d865b72e05850593.jpg",
+      "_model_id": "cub126"
+    },
+    {
+      "sku_id": "csid_47d3c3d1",
+      "retailer_join_id": "27373",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Supreme Hybrid Comfort Pro 625 Electric Bike With Enviolo City V2 Hub Gears In Fire Red & Black Fire Red & Black",
+      "model_year": "2025",
+      "frame_size_label": "Easy Entry Small 50cm",
+      "colour": "Fire Red & Black",
+      "battery_wh": 625,
+      "in_stock": true,
+      "price_sale_gbp": 2899,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-supreme-hybrid-comfort-pro-625-easy-entry-continuous-hub-gear-electric-bike-in-fire-red-black-27373/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Supreme-Hybrid-Comfort-Pro-625_365640f8c23f0884d865b72e05850593.jpg",
       "_model_id": "cub126"
     },
@@ -913,6 +1033,21 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-touring-hybrid-one-500-electric-bike-in-deepsea-chrome-26761/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Touring-Hybrid-One-500-Electri_4bca77d4eebb0a41fcb35d92cbe2183c.jpg",
       "_model_id": "cub137"
+    },
+    {
+      "sku_id": "csid_69bd9d54",
+      "retailer_join_id": "27427",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Touring Hybrid One 625 Electric Bike In Cotton & Black Cotton & Black",
+      "model_year": "2025",
+      "frame_size_label": "Crossbar Small 50cm",
+      "colour": "Cotton & Black",
+      "battery_wh": 625,
+      "in_stock": true,
+      "price_sale_gbp": 2449,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-touring-hybrid-one-625-electric-bike-in-cotton-black-27427/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Touring-Hybrid-One-625-Electri_abfdb05ce56c523ffd4d636d7d987673.jpg",
+      "_model_id": "cub138"
     },
     {
       "sku_id": "csid_c6abaf06",
@@ -1062,6 +1197,21 @@
       "price_sale_gbp": 2699,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-touring-hybrid-pro-625-electric-bike-in-metallic-grey-chrome-27454/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Touring-Hybrid-Pro-625-Electri_07b9b9933563581fa78cbe23f513f513.jpg",
+      "_model_id": "cub141"
+    },
+    {
+      "sku_id": "csid_7a20f7ea",
+      "retailer_join_id": "27456",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Touring Hybrid Pro 625 Electric Bike In Metallic Grey & Chrome Metallic Grey & Chrome",
+      "model_year": "2025",
+      "frame_size_label": "Easy Entry Medium 54cm",
+      "colour": "Metallic Grey & Chrome",
+      "battery_wh": 625,
+      "in_stock": true,
+      "price_sale_gbp": 2699,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-touring-hybrid-pro-625-electric-bike-in-metallic-grey-chrome-27456/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Touring-Hybrid-Pro-625-Electri_a36bf46142aa376cc17071e0fcc5a65e.jpg",
       "_model_id": "cub141"
     },
     {
@@ -1355,6 +1505,19 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-exc-750-electric-bike-in-red-10067/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2023-Cube-Kathmandu-Hybrid-Exc-750-Electric-Bike-in-Red-Trapezejpg_87487a52b2a67bce5c459a30c73b45af.jpg",
       "_model_id": "cub151"
+    },
+    {
+      "sku_id": "csid_84caf973",
+      "retailer_join_id": "11627",
+      "brand": "Cube",
+      "model_name": "Cube Kathmandu Hybrid One 750 Electric Bike in Blue",
+      "frame_size_label": "Trapeze Small 50cm",
+      "colour": "Blue / Black",
+      "in_stock": true,
+      "price_sale_gbp": 3399,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-one-750-electric-bike-in-blue-11627/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/S2078689631183S20jpg_9d3bfc2dc412ac33bfac690eec09eae6.jpg",
+      "_model_id": "cub152"
     },
     {
       "sku_id": "csid_6c4b64fc",
@@ -2044,66 +2207,6 @@
       "_model_id": "hai3"
     },
     {
-      "sku_id": "csid_ac20c80b",
-      "retailer_join_id": "28552",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllMtn 6 Full Suspension Electric Mountain Bike In Ocean Black & Grey Gloss Ocean Black & Grey Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Small 40cm",
-      "colour": "Ocean Black & Grey Gloss",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 4699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-allmtn-6-full-suspension-electric-mountain-bike-in-ocean-black-grey-gloss-28552/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllMtn-6-Full-Suspension-El_592bd1264c9e3a9b3094bbedae37cb49.jpg",
-      "_model_id": "hai5"
-    },
-    {
-      "sku_id": "csid_f28ba3c8",
-      "retailer_join_id": "28553",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllMtn 6 Full Suspension Electric Mountain Bike In Ocean Black & Grey Gloss Ocean Black & Grey Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Medium 44cm",
-      "colour": "Ocean Black & Grey Gloss",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 4699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-allmtn-6-full-suspension-electric-mountain-bike-in-ocean-black-grey-gloss-28553/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllMtn-6-Full-Suspension-El_592bd1264c9e3a9b3094bbedae37cb49.jpg",
-      "_model_id": "hai5"
-    },
-    {
-      "sku_id": "csid_59e714b8",
-      "retailer_join_id": "28554",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllMtn 6 Full Suspension Electric Mountain Bike In Ocean Black & Grey Gloss Ocean Black & Grey Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Large 47cm",
-      "colour": "Ocean Black & Grey Gloss",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 4699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-allmtn-6-full-suspension-electric-mountain-bike-in-ocean-black-grey-gloss-28554/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllMtn-6-Full-Suspension-El_592bd1264c9e3a9b3094bbedae37cb49.jpg",
-      "_model_id": "hai5"
-    },
-    {
-      "sku_id": "csid_92e2ca4e",
-      "retailer_join_id": "28555",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllMtn 6 Full Suspension Electric Mountain Bike In Ocean Black & Grey Gloss Ocean Black & Grey Gloss",
-      "model_year": "2025",
-      "frame_size_label": "X-Large 49cm",
-      "colour": "Ocean Black & Grey Gloss",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 4699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-allmtn-6-full-suspension-electric-mountain-bike-in-ocean-black-grey-gloss-28555/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllMtn-6-Full-Suspension-El_592bd1264c9e3a9b3094bbedae37cb49.jpg",
-      "_model_id": "hai5"
-    },
-    {
       "sku_id": "csid_7972185a",
       "retailer_join_id": "28548",
       "brand": "Haibike",
@@ -2134,36 +2237,6 @@
       "_model_id": "hai6"
     },
     {
-      "sku_id": "csid_f0d81fbe",
-      "retailer_join_id": "28550",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllMtn CF 9 Performance CX 800Wh Full Suspension Electric Mountain Bike In Black & Platinum Gloss Black & Platinum Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Large 46cm",
-      "colour": "Black & Platinum Gloss",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 6299,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-allmtn-cf-9-performance-cx-800wh-full-suspension-electric-mountain-bike-in-black-platinum-gloss-28550/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllMtn-CF-9-Performance-CX-_f5b946046653a5f2f792e256450bc791.jpg",
-      "_model_id": "hai6"
-    },
-    {
-      "sku_id": "csid_d7f0adc6",
-      "retailer_join_id": "28544",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllMtn CF 9 Performance CX 800Wh Full Suspension Electric Mountain Bike In Red, Black & Platinum Gloss Red, Black & Platinum Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Small 40cm",
-      "colour": "Red, Black & Platinum Gloss",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 6299,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-allmtn-cf-9-performance-cx-800wh-full-suspension-electric-mountain-bike-in-red-black-platinum-gloss-28544/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllMtn-CF-9-Performance-CX-_922b5010e01dbb181a88b5d3ae8aff26.jpg",
-      "_model_id": "hai7"
-    },
-    {
       "sku_id": "csid_e98e4919",
       "retailer_join_id": "28545",
       "brand": "Haibike",
@@ -2175,21 +2248,6 @@
       "in_stock": true,
       "price_sale_gbp": 6299,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-allmtn-cf-9-performance-cx-800wh-full-suspension-electric-mountain-bike-in-red-black-platinum-gloss-28545/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllMtn-CF-9-Performance-CX-_922b5010e01dbb181a88b5d3ae8aff26.jpg",
-      "_model_id": "hai7"
-    },
-    {
-      "sku_id": "csid_941c1183",
-      "retailer_join_id": "28546",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllMtn CF 9 Performance CX 800Wh Full Suspension Electric Mountain Bike In Red, Black & Platinum Gloss Red, Black & Platinum Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Large 46cm",
-      "colour": "Red, Black & Platinum Gloss",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 6299,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-allmtn-cf-9-performance-cx-800wh-full-suspension-electric-mountain-bike-in-red-black-platinum-gloss-28546/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllMtn-CF-9-Performance-CX-_922b5010e01dbb181a88b5d3ae8aff26.jpg",
       "_model_id": "hai7"
     },
@@ -2269,21 +2327,6 @@
       "_model_id": "hai10"
     },
     {
-      "sku_id": "csid_1248950c",
-      "retailer_join_id": "28574",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllTrack 10 Electric Hardtail Mountain Bike In Blue & Titan Yellow Gloss Blue & Titan Yellow Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Large 50cm",
-      "colour": "Blue & Titan Yellow Gloss",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 3599,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/2025-haibike-alltrack-10-electric-hardtail-mountain-bike-in-blue-titan-yellow-gloss-28574/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllTrack-10-Electric-Hardta_229f33105be98a34251a9ca378a0ae94.jpg",
-      "_model_id": "hai10"
-    },
-    {
       "sku_id": "csid_837b9bab",
       "retailer_join_id": "28575",
       "brand": "Haibike",
@@ -2344,21 +2387,6 @@
       "_model_id": "hai12"
     },
     {
-      "sku_id": "csid_a8fee80b",
-      "retailer_join_id": "28581",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllTrack 6.5 Electric Hardtail Mountain Bike In Grey, Blue & Yellow Gloss Grey, Blue & Yellow Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Medium 45cm",
-      "colour": "Grey, Blue & Yellow Gloss",
-      "battery_wh": 600,
-      "in_stock": true,
-      "price_sale_gbp": 2899,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/2025-haibike-alltrack-65-electric-hardtail-mountain-bike-in-grey-blue-yellow-gloss-28581/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllTrack-65-Electric-Hardt_f7c3bdce6a58f37f2f7bd2d08e4db06d.jpg",
-      "_model_id": "hai12"
-    },
-    {
       "sku_id": "csid_18d9865a",
       "retailer_join_id": "28582",
       "brand": "Haibike",
@@ -2400,21 +2428,6 @@
       "in_stock": true,
       "price_sale_gbp": 3199,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-alltrail-3-full-suspension-electric-mountain-bike-in-caramel-orange-black-gloss-32943/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-Alltrail-3-Full-Suspension-_94ad5f294a938cf5d07df10ab71d9083.jpg",
-      "_model_id": "hai14"
-    },
-    {
-      "sku_id": "csid_e19e5c00",
-      "retailer_join_id": "33615",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllTrail 3 Full Suspension Electric Mountain Bike In Caramel, Orange & Black Gloss Caramel, Orange & Black Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Medium 44cm",
-      "colour": "Caramel, Orange & Black Gloss",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 3199,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-alltrail-3-full-suspension-electric-mountain-bike-in-caramel-orange-black-gloss-33615/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-Alltrail-3-Full-Suspension-_94ad5f294a938cf5d07df10ab71d9083.jpg",
       "_model_id": "hai14"
     },
@@ -2854,20 +2867,6 @@
       "_model_id": "hai25"
     },
     {
-      "sku_id": "csid_b9a69185",
-      "retailer_join_id": "9850",
-      "brand": "Haibike",
-      "model_name": "Haibike AllTrack 4 500Wh 27.5 Electric Mountain Bike In",
-      "frame_size_label": "40cm Small 27.5 Wheels",
-      "colour": "Cool Blue Leather Gloss",
-      "battery_wh": 500,
-      "in_stock": true,
-      "price_sale_gbp": 1999,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/2024-haibike-alltrack-4-500wh-275-electric-mountain-bike-in-blue-9850/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/Haibike-Alltrack-4-275jpg_3fa5c924ed01ac37d987a2fecd9394e5.jpg",
-      "_model_id": "hai26"
-    },
-    {
       "sku_id": "csid_2bca901a",
       "retailer_join_id": "33540",
       "brand": "Haibike",
@@ -2948,20 +2947,6 @@
       "in_stock": true,
       "price_sale_gbp": 2499,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-haibike-trekking-3-mid-500wh-electric-bike-in-warm-grey-black-gloss-16576/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2023-haibike-trekking-3-mid-500wh-electric-bike-in-grey_16574.jpg",
-      "_model_id": "hai32"
-    },
-    {
-      "sku_id": "csid_76b5a801",
-      "retailer_join_id": "21315",
-      "brand": "Haibike",
-      "model_name": "Haibike Trekking 3 Mid 500Wh Electric Bike in Gloss Chalk & Black Gloss Chalk & Black",
-      "frame_size_label": "Medium 48cm.",
-      "colour": "Gloss Chalk & Black",
-      "battery_wh": 500,
-      "in_stock": true,
-      "price_sale_gbp": 2499,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-haibike-trekking-3-mid-500wh-electric-bike-in-warm-grey-black-gloss-21315/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2023-haibike-trekking-3-mid-500wh-electric-bike-in-grey_16574.jpg",
       "_model_id": "hai32"
     },
