@@ -1,21 +1,6 @@
 {
-  "generated_at": "2025-08-30T04:33:35.656Z",
+  "generated_at": "2025-08-31T04:34:11.748Z",
   "items": [
-    {
-      "sku_id": "csid_ae3e59a4",
-      "retailer_join_id": "23391",
-      "brand": "Cube",
-      "model_name": "Cube 2025 AMS Hybrid ONE44 C:68 SLX Electric Full Suspension Mountain Bike in Deep Cobalt & Black Deep Cobalt & Black",
-      "model_year": "2025",
-      "frame_size_label": "Medium 18 inch",
-      "colour": "Deep Cobalt & Black",
-      "battery_wh": 400,
-      "in_stock": true,
-      "price_sale_gbp": 5499,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-cube-ams-hybrid-one44-c68-slx-electric-full-suspension-mountain-bike-in-deep-cobalt-black-23391/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/804100360I001920x1920jpg_b85c6c6b6690b4ab8a107e9e41485c3c.jpg",
-      "_model_id": "cub2"
-    },
     {
       "sku_id": "csid_59eea50a",
       "retailer_join_id": "23392",
@@ -32,36 +17,6 @@
       "_model_id": "cub2"
     },
     {
-      "sku_id": "csid_36353628",
-      "retailer_join_id": "26784",
-      "brand": "Cube",
-      "model_name": "Cube 2025 AMS Hybrid ONE44 C:68X Race 400X Electric Full Suspension Mountain Bike In",
-      "model_year": "2025",
-      "frame_size_label": "Large 20 inch",
-      "colour": "Blackline",
-      "battery_wh": 400,
-      "in_stock": true,
-      "price_sale_gbp": 4499,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-cube-ams-hybrid-one44-c68x-race-400x-electric-full-suspension-mountain-bike-in-blackline-26784/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-AMS-Hybrid-ONE44-C68X-Race-40_078b8cc9533d219b54b55965e4973fce.jpg",
-      "_model_id": "cub3"
-    },
-    {
-      "sku_id": "csid_292abe06",
-      "retailer_join_id": "26787",
-      "brand": "Cube",
-      "model_name": "Cube 2025 AMS Hybrid ONE44 C:68X Race 400X Electric Full Suspension Mountain Bike In",
-      "model_year": "2025",
-      "frame_size_label": "X-Large 22 inch",
-      "colour": "Blackline",
-      "battery_wh": 400,
-      "in_stock": true,
-      "price_sale_gbp": 4499,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-cube-ams-hybrid-one44-c68x-race-400x-electric-full-suspension-mountain-bike-in-blackline-26787/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-AMS-Hybrid-ONE44-C68X-Race-40_078b8cc9533d219b54b55965e4973fce.jpg",
-      "_model_id": "cub3"
-    },
-    {
       "sku_id": "csid_b8511003",
       "retailer_join_id": "26785",
       "brand": "Cube",
@@ -75,21 +30,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-cube-ams-hybrid-one44-c68x-race-400x-electric-full-suspension-mountain-bike-in-blackline-26785/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-AMS-Hybrid-ONE44-C68X-Race-40_078b8cc9533d219b54b55965e4973fce.jpg",
       "_model_id": "cub3"
-    },
-    {
-      "sku_id": "csid_fef75278",
-      "retailer_join_id": "23399",
-      "brand": "Cube",
-      "model_name": "Cube 2025 AMS Hybrid ONE44 C:68X SLT Electric Full Suspension Mountain Bike in Carbon & Dust Gold Carbon & Dust Gold",
-      "model_year": "2025",
-      "frame_size_label": "Medium 18 inch",
-      "colour": "Carbon & Dust Gold",
-      "battery_wh": 400,
-      "in_stock": true,
-      "price_sale_gbp": 7499,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-cube-ams-hybrid-one44-c68x-slt-electric-full-suspension-mountain-bike-in-carbon-dust-gold-23399/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/804300360I001920x1920jpg_1f2565d8cd01b672143d150f2cdd9245.jpg",
-      "_model_id": "cub4"
     },
     {
       "sku_id": "csid_3dc0ed18",
@@ -150,21 +90,6 @@
       "_model_id": "cub16"
     },
     {
-      "sku_id": "csid_9d3c5021",
-      "retailer_join_id": "23578",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Editor Hybrid SLT 400X 400Wh Performance SX Electric Bike With Belt Drive & Hub Gears In Goblin Green & Glossy",
-      "model_year": "2025",
-      "frame_size_label": "X-Large 62cm",
-      "colour": "Goblin 'n' Glossy",
-      "battery_wh": 400,
-      "in_stock": true,
-      "price_sale_gbp": 2999,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-slt-400x-400wh-performance-sx-belt-drive-electric-bike-in-goblin-green-glossy-23578/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-SLT-400X-400Wh-Performance-SX-Belt-Drive-Electric-Bike-In-Goblin-Green-Glossyjpg_a72bf4013ea0e2cd3fdc2fea3b45d9eb.jpg",
-      "_model_id": "cub16"
-    },
-    {
       "sku_id": "csid_29054c5c",
       "retailer_join_id": "23580",
       "brand": "Cube",
@@ -210,21 +135,6 @@
       "_model_id": "cub18"
     },
     {
-      "sku_id": "csid_843c8799",
-      "retailer_join_id": "23727",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Editor Hybrid SLX FE 400X 400Wh Performance SX Electric Bike With Hub Gears In Sleek Grey & Spectral",
-      "model_year": "2025",
-      "frame_size_label": "Medium 54cm",
-      "colour": "SleekGrey/Spectral",
-      "battery_wh": 400,
-      "in_stock": true,
-      "price_sale_gbp": 2699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-slx-fe-400x-400wh-performance-sx-hub-gear-electric-bike-in-sleek-grey-spectral-23727/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-SLX-FE-400X-400Wh-Performance-SX-Hub-Gear-Electric-Bike-In-Sleek-Grey-Spectraljpg_f084b4b98e2afd376dc26cd95fddcc2a.jpg",
-      "_model_id": "cub19"
-    },
-    {
       "sku_id": "csid_9ca6fd5c",
       "retailer_join_id": "23728",
       "brand": "Cube",
@@ -238,36 +148,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-slx-fe-400x-400wh-performance-sx-hub-gear-electric-bike-in-sleek-grey-spectral-23728/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-SLX-FE-400X-400Wh-Performance-SX-Hub-Gear-Electric-Bike-In-Sleek-Grey-Spectraljpg_f084b4b98e2afd376dc26cd95fddcc2a.jpg",
       "_model_id": "cub19"
-    },
-    {
-      "sku_id": "csid_7b98d2d8",
-      "retailer_join_id": "23729",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Editor Hybrid SLX FE 400X 400Wh Performance SX Electric Bike With Hub Gears In Sleek Grey & Spectral",
-      "model_year": "2025",
-      "frame_size_label": "X-Large 62cm",
-      "colour": "SleekGrey/Spectral",
-      "battery_wh": 400,
-      "in_stock": true,
-      "price_sale_gbp": 2699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-slx-fe-400x-400wh-performance-sx-hub-gear-electric-bike-in-sleek-grey-spectral-23729/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-SLX-FE-400X-400Wh-Performance-SX-Hub-Gear-Electric-Bike-In-Sleek-Grey-Spectraljpg_f084b4b98e2afd376dc26cd95fddcc2a.jpg",
-      "_model_id": "cub19"
-    },
-    {
-      "sku_id": "csid_84c98725",
-      "retailer_join_id": "24270",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Kathmandu Hybrid C:62 SLT 400X Electric Bike In Stellar & Origanogreen",
-      "model_year": "2025",
-      "frame_size_label": "Cross Bar Large 58cm",
-      "colour": "Stellar / Origanogreen",
-      "battery_wh": 400,
-      "in_stock": true,
-      "price_sale_gbp": 4499,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-c62-slt-400x-electric-bike-in-stellar-origanogreen-24270/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/Kathmandu-Hybrid-C62-SLT-400X-Crossbarjp_87d5e16f11560e0f2c8a050dcde3460a.jpg",
-      "_model_id": "cub27"
     },
     {
       "sku_id": "csid_6c6b227c",
@@ -330,6 +210,21 @@
       "_model_id": "cub34"
     },
     {
+      "sku_id": "csid_f343ab41",
+      "retailer_join_id": "26895",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Kathmandu Hybrid EXC 800 Electric Bike In Black & Prism Black & Prism",
+      "model_year": "2025",
+      "frame_size_label": "Easy Entry Small 50cm",
+      "colour": "Black & Prism",
+      "battery_wh": 800,
+      "in_stock": true,
+      "price_sale_gbp": 3599,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-exc-800-electric-bike-in-black-prism-26895/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-EXC-800-Easy-_5ad853585688a5778b4d6847b7eb105a.jpg",
+      "_model_id": "cub34"
+    },
+    {
       "sku_id": "csid_e689b616",
       "retailer_join_id": "26916",
       "brand": "Cube",
@@ -342,21 +237,6 @@
       "price_sale_gbp": 2999,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-one-800-electric-bike-in-polar-white-black-26916/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-One-800-Elect_d10117e9a30b23641ea0730a32d1f685.jpg",
-      "_model_id": "cub36"
-    },
-    {
-      "sku_id": "csid_c5329c9c",
-      "retailer_join_id": "26924",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Kathmandu Hybrid One 800 Electric Bike In Polar White & Black Polar White & Black",
-      "model_year": "2025",
-      "frame_size_label": "Easy Entry X-Large 62cm",
-      "colour": "Polar White & Black",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 2999,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-one-800-electric-bike-in-polar-white-black-26924/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-One-800-Easy-_72bd563ae47ef84cbcd4cf27e50b3d40.jpg",
       "_model_id": "cub36"
     },
     {
@@ -375,18 +255,18 @@
       "_model_id": "cub39"
     },
     {
-      "sku_id": "csid_9e7f0fde",
-      "retailer_join_id": "26962",
+      "sku_id": "csid_64ec0722",
+      "retailer_join_id": "26960",
       "brand": "Cube",
       "model_name": "Cube 2025 Kathmandu Hybrid Pro 800 Electric Bike In Slab Grey & Chrome Slab Grey & Chrome",
       "model_year": "2025",
-      "frame_size_label": "Easy Entry Large 58cm",
+      "frame_size_label": "Easy Entry Small 50cm",
       "colour": "Slab Grey & Chrome",
       "battery_wh": 800,
       "in_stock": true,
       "price_sale_gbp": 3299,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-pro-800-electric-bike-in-slab-grey-chrome-26962/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-Pro-800-Easy-_5ba4c0a32008a79835149722cae05da1.jpg",
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-pro-800-electric-bike-in-slab-grey-chrome-26960/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-Pro-800-Easy-_f226e23178fdc84ab8f6dc450cffc19f.jpg",
       "_model_id": "cub39"
     },
     {
@@ -403,36 +283,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-pro-800-electric-bike-in-slab-grey-chrome-26965/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-Pro-800-Trape_92d8376a6d267c0cc4dbb9cb7b688caf.jpg",
       "_model_id": "cub39"
-    },
-    {
-      "sku_id": "csid_49378a30",
-      "retailer_join_id": "27033",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Reaction Hybrid One 600 Easy Entry Electric Hardtail Mountain Bike In",
-      "model_year": "2025",
-      "frame_size_label": "Easy Entry X-Large 49.5cm",
-      "colour": "Blackline",
-      "battery_wh": 600,
-      "in_stock": true,
-      "price_sale_gbp": 2399,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/2025-cube-reaction-hybrid-one-easy-entry-electric-hardtail-mountain-bike-in-blackline-27033/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Reaction-Hybrid-One-600-Easy-E_c33943098983b901dc9f8767bd81ebea.jpg",
-      "_model_id": "cub49"
-    },
-    {
-      "sku_id": "csid_fbcc5f26",
-      "retailer_join_id": "31115",
-      "brand": "Cube",
-      "model_name": "CUBE 2025 Reaction Hybrid Performance 500 Allroad Electric Hardtail Mountain Bike In Golden Lime & Black Golden Lime & Black",
-      "model_year": "2025",
-      "frame_size_label": "Crossbar X-Large 51.5cm",
-      "colour": "Golden Lime & Black",
-      "battery_wh": 500,
-      "in_stock": true,
-      "price_sale_gbp": 2199,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/2025-cube-reaction-hybrid-performance-500-allroad-electric-hardtail-mountain-bike-in-golden-lime-black-31115/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Reaction-Hybrid-Performance-50_d0336e06914291f80b9c351727d4ee7a.jpg",
-      "_model_id": "cub61"
     },
     {
       "sku_id": "csid_ff0253a9",
@@ -553,36 +403,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/2025-cube-reaction-hybrid-slt-electric-hardtail-mountain-bike-in-solar-eclipse-bronze-27207/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Reaction-Hybrid-SLT-Electric-H_8ebc28904f8a5faffce56a846f49f043.jpg",
       "_model_id": "cub89"
-    },
-    {
-      "sku_id": "csid_bdb1a9b5",
-      "retailer_join_id": "27261",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Stereo Hybrid ONE44 EXC 800 Electric Full Suspension Mountain Bike In Metallic White Marble & Black White MarbleÃ‚Â´nÃ‚Â´Black",
-      "model_year": "2025",
-      "frame_size_label": "Medium",
-      "colour": "White MarbleÂ´nÂ´Black",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 3999,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-cube-stereo-hybrid-one44-exc-electric-full-suspension-mountain-bike-in-metallic-white-marble-black-27261/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Stereo-Hybrid-ONE44-EXC-Electr_4d6af778e24100a26b3a304fb29514fe.jpg",
-      "_model_id": "cub98"
-    },
-    {
-      "sku_id": "csid_ab0a4c46",
-      "retailer_join_id": "27269",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Stereo Hybrid ONE44 HPC AT 800 Electric Full Suspension Mountain Bike In",
-      "model_year": "2025",
-      "frame_size_label": "Medium",
-      "colour": "Actionteam Blue",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 6499,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-cube-stereo-hybrid-one44-hpc-at-electric-full-suspension-mountain-bike-in-actionteam-27269/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Stereo-ONE44-HPC-AT-Electric-F_9bc9782f0352fc4b8a7ea095da0cb34f.jpg",
-      "_model_id": "cub100"
     },
     {
       "sku_id": "csid_c2f4325f",
@@ -1035,21 +855,6 @@
       "_model_id": "cub137"
     },
     {
-      "sku_id": "csid_69bd9d54",
-      "retailer_join_id": "27427",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Touring Hybrid One 625 Electric Bike In Cotton & Black Cotton & Black",
-      "model_year": "2025",
-      "frame_size_label": "Crossbar Small 50cm",
-      "colour": "Cotton & Black",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2449,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-touring-hybrid-one-625-electric-bike-in-cotton-black-27427/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Touring-Hybrid-One-625-Electri_abfdb05ce56c523ffd4d636d7d987673.jpg",
-      "_model_id": "cub138"
-    },
-    {
       "sku_id": "csid_c6abaf06",
       "retailer_join_id": "27428",
       "brand": "Cube",
@@ -1110,21 +915,6 @@
       "_model_id": "cub140"
     },
     {
-      "sku_id": "csid_bad6226f",
-      "retailer_join_id": "27446",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Touring Hybrid Pro 625 Electric Bike In Cinnamon & Orange Cinnamon & Orange",
-      "model_year": "2025",
-      "frame_size_label": "Easy Entry Large 58cm",
-      "colour": "Cinnamon & Orange",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-touring-hybrid-pro-625-electric-bike-in-cinnamon-orange-27446/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Touring-Hybrid-Pro-625-Electri_d9fb1c3f271b256d595455ea8195e9f1.jpg",
-      "_model_id": "cub140"
-    },
-    {
       "sku_id": "csid_b3eacfea",
       "retailer_join_id": "27447",
       "brand": "Cube",
@@ -1155,21 +945,6 @@
       "_model_id": "cub140"
     },
     {
-      "sku_id": "csid_55bd5610",
-      "retailer_join_id": "27449",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Touring Hybrid Pro 625 Electric Bike In Cinnamon & Orange Cinnamon & Orange",
-      "model_year": "2025",
-      "frame_size_label": "Trapeze Medium 54cm",
-      "colour": "Cinnamon & Orange",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-touring-hybrid-pro-625-electric-bike-in-cinnamon-orange-27449/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Touring-Hybrid-Pro-625-Electri_7139a68cb7c83370f3abf2ad7d7d634e.jpg",
-      "_model_id": "cub140"
-    },
-    {
       "sku_id": "csid_f2429db2",
       "retailer_join_id": "27450",
       "brand": "Cube",
@@ -1197,36 +972,6 @@
       "price_sale_gbp": 2699,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-touring-hybrid-pro-625-electric-bike-in-metallic-grey-chrome-27454/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Touring-Hybrid-Pro-625-Electri_07b9b9933563581fa78cbe23f513f513.jpg",
-      "_model_id": "cub141"
-    },
-    {
-      "sku_id": "csid_7a20f7ea",
-      "retailer_join_id": "27456",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Touring Hybrid Pro 625 Electric Bike In Metallic Grey & Chrome Metallic Grey & Chrome",
-      "model_year": "2025",
-      "frame_size_label": "Easy Entry Medium 54cm",
-      "colour": "Metallic Grey & Chrome",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-touring-hybrid-pro-625-electric-bike-in-metallic-grey-chrome-27456/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Touring-Hybrid-Pro-625-Electri_a36bf46142aa376cc17071e0fcc5a65e.jpg",
-      "_model_id": "cub141"
-    },
-    {
-      "sku_id": "csid_4ae4ca09",
-      "retailer_join_id": "27458",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Touring Hybrid Pro 625 Electric Bike In Metallic Grey & Chrome Metallic Grey & Chrome",
-      "model_year": "2025",
-      "frame_size_label": "Trapeze X-Small 46cm",
-      "colour": "Metallic Grey & Chrome",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-touring-hybrid-pro-625-electric-bike-in-metallic-grey-chrome-27458/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Touring-Hybrid-Pro-625-Electri_05b1b3dd45df36ac359c13748d254935.jpg",
       "_model_id": "cub141"
     },
     {
@@ -1423,20 +1168,6 @@
       "_model_id": "cub150"
     },
     {
-      "sku_id": "csid_f8cdb346",
-      "retailer_join_id": "10039",
-      "brand": "Cube",
-      "model_name": "Cube Kathmandu Hybrid EXC 750 Electric Bike in Black & Silver Cross Bar Small 50cm.",
-      "frame_size_label": "Cross Bar Small 50cm.",
-      "colour": "Black / Silver",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 3899,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-exc-750-electric-bike-in-grey-10039/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2023-cube-kathmandu-hybrid-exc-750-electric-bike-in-grey_10039.jpg",
-      "_model_id": "cub150"
-    },
-    {
       "sku_id": "csid_b49b9730",
       "retailer_join_id": "10047",
       "brand": "Cube",
@@ -1449,34 +1180,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-exc-750-electric-bike-in-grey-10047/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2023-Cube-Kathmandu-Hybrid-EXC-750-Electric-Bike-in-Grey-Silver-Trapezejpg_60154bd21b505256a1fd306af9919814.jpg",
       "_model_id": "cub150"
-    },
-    {
-      "sku_id": "csid_9eafb036",
-      "retailer_join_id": "23026",
-      "brand": "Cube",
-      "model_name": "Cube Kathmandu Hybrid EXC 750 Electric Bike in Red & Black Red & Black",
-      "frame_size_label": "Crossbar Medium 54cm",
-      "colour": "Red & Black",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 3299,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-exc-750-electric-bike-in-red-23026/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Kathmandu-Hybrid-EXC-750-Electric-Bike-In-Redjpg_53a268742d3f64b0e2d0e1ec163dfa91.jpg",
-      "_model_id": "cub151"
-    },
-    {
-      "sku_id": "csid_c9e875a1",
-      "retailer_join_id": "23030",
-      "brand": "Cube",
-      "model_name": "Cube Kathmandu Hybrid EXC 750 Electric Bike in Red & Black Red & Black",
-      "frame_size_label": "Trapeze Medium 54cm",
-      "colour": "Red & Black",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 3299,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-exc-750-electric-bike-in-red-23030/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Kathmandu-Hybrid-EXC-750-Electric-Bike-In-Red-Trapezejpg_bb2203e4203bb815248ff13f3be9400f.jpg",
-      "_model_id": "cub151"
     },
     {
       "sku_id": "csid_7d549e0a",
@@ -1505,19 +1208,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-exc-750-electric-bike-in-red-10067/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2023-Cube-Kathmandu-Hybrid-Exc-750-Electric-Bike-in-Red-Trapezejpg_87487a52b2a67bce5c459a30c73b45af.jpg",
       "_model_id": "cub151"
-    },
-    {
-      "sku_id": "csid_84caf973",
-      "retailer_join_id": "11627",
-      "brand": "Cube",
-      "model_name": "Cube Kathmandu Hybrid One 750 Electric Bike in Blue",
-      "frame_size_label": "Trapeze Small 50cm",
-      "colour": "Blue / Black",
-      "in_stock": true,
-      "price_sale_gbp": 3399,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-one-750-electric-bike-in-blue-11627/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/S2078689631183S20jpg_9d3bfc2dc412ac33bfac690eec09eae6.jpg",
-      "_model_id": "cub152"
     },
     {
       "sku_id": "csid_6c4b64fc",
@@ -1573,62 +1263,6 @@
       "_model_id": "cub154"
     },
     {
-      "sku_id": "csid_fab4128c",
-      "retailer_join_id": "22815",
-      "brand": "Cube",
-      "model_name": "Cube Kathmandu Hybrid Pro 750 Electric Bike in Flash Grey",
-      "frame_size_label": "Easy Entry X-Small 46cm",
-      "colour": "Flash Grey / Black",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 3699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/cube-kathmandu-hybrid-pro-750-flashgrey-2023-22815/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Kathmandu-Hybrid-Pro-750-Electric-Bike-In-Flash-Grey-Easy-Entryjpg_8859bd88ffd4fd193d1dc8b2f69f1a74.jpg",
-      "_model_id": "cub154"
-    },
-    {
-      "sku_id": "csid_b6218b4c",
-      "retailer_join_id": "10057",
-      "brand": "Cube",
-      "model_name": "Cube Kathmandu Hybrid Pro 750 Electric Bike in Flash Stone & Black",
-      "frame_size_label": "Trapeze Small 50cm",
-      "colour": "Flashstone / Black",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 3699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-pro-750-electric-bike-in-flash-stone-10057/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2023-Cube-Kathmandu-Hybrid-Pro-750-Electric-Bike-in-Flash-Stone-Trapezejpg_56b2fe514e1761b29129744e2c0f72c6.jpg",
-      "_model_id": "cub155"
-    },
-    {
-      "sku_id": "csid_52830300",
-      "retailer_join_id": "23205",
-      "brand": "Cube",
-      "model_name": "Cube Kathmandu Hybrid SLX 750 Electric Bike In Green And Olive",
-      "frame_size_label": "Trapeze Small 50cm.",
-      "colour": "Green / Olive",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 3499,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-slx-750-electric-bike-in-green-and-olive-23205/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Kathmandu-Hybrid-SLX-750-Electric-Bike-In-Green-Trapezejpg_c0fe2b03bc8ed014504ffcdcdcc67822.jpg",
-      "_model_id": "cub156"
-    },
-    {
-      "sku_id": "csid_e6a326c4",
-      "retailer_join_id": "11652",
-      "brand": "Cube",
-      "model_name": "Cube Kathmandu Hybrid SLX 750 Electric Bike In Green And Olive",
-      "frame_size_label": "Trapeze Small 50cm",
-      "colour": "Green / Olive",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 4199,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-slx-750-electric-bike-in-green-and-olive-11652/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/S2078716631313S20jpg_1aa5a52503fde520e9ac7cd6033a8f69.jpg",
-      "_model_id": "cub156"
-    },
-    {
       "sku_id": "csid_8d2204de",
       "retailer_join_id": "10269",
       "brand": "Cube",
@@ -1643,20 +1277,6 @@
       "_model_id": "cub157"
     },
     {
-      "sku_id": "csid_4b786b0d",
-      "retailer_join_id": "10270",
-      "brand": "Cube",
-      "model_name": "Cube Kathmandu Hybrid SLX 750 Electric Bike in Polar Silver",
-      "frame_size_label": "Trapeze Medium 54cm",
-      "colour": "PolarSilver / Black",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 4199,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-slx-750-electric-bike-in-polar-silver-10270/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2023-Cube-Kathmandu-Hybrid-SLX-750-Electric-Bike-in-Polar-Silver-Trapezejpg_3d337d0229b08cc80cf7ade185c44796.jpg",
-      "_model_id": "cub157"
-    },
-    {
       "sku_id": "csid_41f38406",
       "retailer_join_id": "22872",
       "brand": "Cube",
@@ -1668,20 +1288,6 @@
       "price_sale_gbp": 4199,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-slx-750-electric-bike-in-polar-silver-22872/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Kathmandu-Hybrid-SLX-750-Electric-Bike-In-Polarsilver-Trapezejpg_ee39cdc7f040ca17ef08c2648c7c9c3b.jpg",
-      "_model_id": "cub157"
-    },
-    {
-      "sku_id": "csid_d1813527",
-      "retailer_join_id": "22873",
-      "brand": "Cube",
-      "model_name": "Cube Kathmandu Hybrid SLX 750 Electric Bike in Polar Silver",
-      "frame_size_label": "Trapeze Medium 54cm.",
-      "colour": "PolarSilver / Black",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 4199,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-kathmandu-hybrid-slx-750-electric-bike-in-polar-silver-22873/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Kathmandu-Hybrid-SLX-750-Electric-Bike-In-Polarsilver-Trapezejpg_6c40cf85b1dbcb914a9d3084160772e6.jpg",
       "_model_id": "cub157"
     },
     {
@@ -1767,20 +1373,6 @@
       "_model_id": "cub165"
     },
     {
-      "sku_id": "csid_cb002952",
-      "retailer_join_id": "23177",
-      "brand": "Cube",
-      "model_name": "Cube Touring Hybrid EXC 625 Electric Bike in Grey & Metal Grey & Metal",
-      "frame_size_label": "Crossbar Small 50cm.",
-      "colour": "Grey & Metal",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2799,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-touring-hybrid-exc-625-electric-bike-in-greymetal-23177/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Touring-Hybrid-EXC-625-Electric-Bike-In-Greyjpg_309cf73d28948cb7af4e0171113495fb.jpg",
-      "_model_id": "cub166"
-    },
-    {
       "sku_id": "csid_c8e850d0",
       "retailer_join_id": "23174",
       "brand": "Cube",
@@ -1837,20 +1429,6 @@
       "_model_id": "cub166"
     },
     {
-      "sku_id": "csid_25d337e6",
-      "retailer_join_id": "11415",
-      "brand": "Cube",
-      "model_name": "Cube Touring Hybrid EXC 625 Electric Bike in Grey & Metal Grey & Metal",
-      "frame_size_label": "Trapeze X-Small 46cm",
-      "colour": "Grey & Metal",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 3399,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-touring-hybrid-exc-625-electric-bike-in-greymetal-11415/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/CITRSIM-Cube-U-2023-TouringHybridEXC625eBike-WmnGreyMetaljpg_137a55037960fa8293fc3675c85c18df.jpg",
-      "_model_id": "cub166"
-    },
-    {
       "sku_id": "csid_e343e599",
       "retailer_join_id": "23164",
       "brand": "Cube",
@@ -1862,20 +1440,6 @@
       "price_sale_gbp": 2799,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/cube-touring-hybrid-exc-625-red-white-2023-23164/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Touring-Hybrid-EXC-625-Electric-Bike-In-Red-Trapezejpg_0970b48b10cc50fcbaab33f106fc957e.jpg",
-      "_model_id": "cub167"
-    },
-    {
-      "sku_id": "csid_2c8ea06d",
-      "retailer_join_id": "23166",
-      "brand": "Cube",
-      "model_name": "Cube Touring Hybrid EXC 625 Electric Bike in Red & White Trapeze Small 50cm. Red & White",
-      "frame_size_label": "Small 50cm.",
-      "colour": "Red & White",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2799,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/cube-touring-hybrid-exc-625-red-white-2023-23166/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Touring-Hybrid-EXC-625-Electric-Bike-In-Red-Crossbarjpg_cf00059765098d4b23a5c1bacea73334.jpg",
       "_model_id": "cub167"
     },
     {
@@ -1921,20 +1485,6 @@
       "_model_id": "cub167"
     },
     {
-      "sku_id": "csid_3d75d12c",
-      "retailer_join_id": "22977",
-      "brand": "Cube",
-      "model_name": "Cube Touring Hybrid One 625 Electric Bike In Dark Green",
-      "frame_size_label": "Trapeze Small 50cm",
-      "colour": "Green/Green",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2399,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-touring-hybrid-one-625-electric-bike-in-dark-green-22977/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Touring-Hybrid-One-625-Electric-Bike-In-Green-Trapezejpg_c29ba6bc10c20cff7151ed47e6307378.jpg",
-      "_model_id": "cub168"
-    },
-    {
       "sku_id": "csid_635f162b",
       "retailer_join_id": "22965",
       "brand": "Cube",
@@ -1977,20 +1527,6 @@
       "_model_id": "cub169"
     },
     {
-      "sku_id": "csid_f06a7df7",
-      "retailer_join_id": "22969",
-      "brand": "Cube",
-      "model_name": "Cube Touring Hybrid One 625 Electric Bike In Grey",
-      "frame_size_label": "Crossbar Medium 54cm",
-      "colour": "Grey/White",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2399,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-touring-hybrid-one-625-electric-bike-in-grey-22969/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Touring-Hybrid-One-625-Electric-Bike-In-Greyjpg_397b36f651af7bc536ee14f1d1830ed8.jpg",
-      "_model_id": "cub169"
-    },
-    {
       "sku_id": "csid_ac1a4af1",
       "retailer_join_id": "22858",
       "brand": "Cube",
@@ -2016,20 +1552,6 @@
       "price_sale_gbp": 2459,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-touring-hybrid-pro-625-electric-bike-in-blackmetal-22859/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Touring-Hybrid-Pro-625-Electric-Bike-In-Black-Trapezejpg_885aa3650289c79812fc716c7db16e24.jpg",
-      "_model_id": "cub170"
-    },
-    {
-      "sku_id": "csid_9614e91b",
-      "retailer_join_id": "22864",
-      "brand": "Cube",
-      "model_name": "Cube Touring Hybrid Pro 625 Electric Bike in Black & Metal Black & Metal",
-      "frame_size_label": "Crossbar Small 50cm",
-      "colour": "Black / Metal",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2459,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2023-cube-touring-hybrid-pro-625-electric-bike-in-blackmetal-22864/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Touring-Hybrid-Pro-625-Electric-Bike-In-Blackjpg_594d9773cdf4e0daa4ea1a9c976c9f68.jpg",
       "_model_id": "cub170"
     },
     {
@@ -2072,20 +1594,6 @@
       "price_sale_gbp": 4999,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-cargo-bikes/2024-cube-trike-family-hybrid-750-electric-cargo-bike-in-white-22745/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Trike-Family-Hybrid-750-Electric-Cargo-Bike-In-Whitejpg_624d772c49f362b15da31580bbdca559.jpg",
-      "_model_id": "cub172"
-    },
-    {
-      "sku_id": "csid_99e14a58",
-      "retailer_join_id": "22746",
-      "brand": "Cube",
-      "model_name": "Cube Trike Family Hybrid 750 Electric Cargo Bike In Flash White, Blue Reflex Or Swamp Grey Swamp Grey & Black",
-      "frame_size_label": "ONE SIZE",
-      "colour": "Swamp Grey.",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 4999,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-cargo-bikes/2024-cube-trike-family-hybrid-750-electric-cargo-bike-in-white-22746/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Trike-Family-Hybrid-750-Electric-Cargo-Bike-In-Swamp-Greyjpg_1ad2c63dccd90fa74d277a6929b1b77b.jpg",
       "_model_id": "cub172"
     },
     {
@@ -2190,21 +1698,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-adventr-85-low-full-suspension-electric-mountain-bike-in-mystery-copper-gloss-28594/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-Adventr-85-Low-Full-Suspen_26e72d948d126a7a1a565506fe3e033d.jpg",
       "_model_id": "hai2"
-    },
-    {
-      "sku_id": "csid_96eadaf9",
-      "retailer_join_id": "30203",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllMtn 4 Electric Full Suspension Mountain Bike In Silver, Red & Black Glossy Medium 44cm. Silver, Red & Black Glossy",
-      "model_year": "2025",
-      "frame_size_label": "Medium 44cm.",
-      "colour": "Silver, Red & Black Glossy",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 4199,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-allmtn-4-full-suspension-electric-mountain-bike-in-silver-red-black-gloss-30203/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllMtn-4-Full-Suspension-El_a6888fdb1d1b9b1aa005f8ec253525de.jpg",
-      "_model_id": "hai3"
     },
     {
       "sku_id": "csid_7972185a",
