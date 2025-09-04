@@ -40,13 +40,43 @@ async function loadBikes() {
 }
 
 // Quiz state
-let step = 0;
+let step = -1; // start at intro instead of 0
 const answers = { use_case:"", terrain:"", range:"", equipped:"unsure", budget_band:"unsure" };
 let results = [];
 
 function render() {
   root.innerHTML = "";
 
+  function render() {
+  root.innerHTML = "";
+
+  if (step === -1) {
+    const container = document.createElement("div");
+    container.className = "intro";
+
+    container.innerHTML = `
+      <h1>Find Your Perfect E-Bike 🚴‍♀️</h1>
+      <p>Answer 5 quick questions and we’ll match you with the best bikes in stock right now.</p>
+      <button class="start-btn">Start Quiz</button>
+    `;
+
+    container.querySelector(".start-btn").onclick = () => {
+      step = 0; // go to first question
+      render();
+    };
+
+    root.appendChild(container);
+    return;
+  }
+
+  if (step === 0) {
+    renderQuestion("How will you most commonly use your e-bike?", 
+      ["commuting","leisure","hills","offroad","unsure"], "use_case");
+  }
+  // … keep the rest of your questions/results the same
+}
+
+  
   if (step === 0) {
     renderQuestion("How will you most commonly use your e-bike?", 
       ["commuting","leisure","hills","offroad","unsure"], "use_case");
