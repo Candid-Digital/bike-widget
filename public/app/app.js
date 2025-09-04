@@ -47,9 +47,6 @@ let results = [];
 function render() {
   root.innerHTML = "";
 
-  function render() {
-  root.innerHTML = "";
-
   if (step === -1) {
     const container = document.createElement("div");
     container.className = "intro";
@@ -69,14 +66,6 @@ function render() {
     return;
   }
 
-  if (step === 0) {
-    renderQuestion("How will you most commonly use your e-bike?", 
-      ["commuting","leisure","hills","offroad","unsure"], "use_case");
-  }
-  // … keep the rest of your questions/results the same
-}
-
-  
   if (step === 0) {
     renderQuestion("How will you most commonly use your e-bike?", 
       ["commuting","leisure","hills","offroad","unsure"], "use_case");
@@ -111,6 +100,7 @@ function render() {
     renderResults();
   }
 }
+
 
 function renderQuestion(title, options, field, labelFn=(x)=>x) {
   const container = document.createElement("div");
