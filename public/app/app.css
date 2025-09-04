@@ -134,3 +134,67 @@ button:disabled {
   padding: 0.2rem 0.6rem;
   color: #444;
 }
+
+/* Position the control buttons inside the card */
+#quiz-root {
+  position: relative;            /* NEW: so controls can sit top-right */
+}
+
+/* Controls group (top-right) */
+.quiz-controls {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+/* Generic pill button */
+.control-btn {
+  appearance: none;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  color: #111827;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0,0,0,.06);
+  transition: background .15s ease, border-color .15s ease, transform .05s ease;
+}
+.control-btn:hover { background:#f8fafc; border-color:#d1d5db; }
+.control-btn:active { transform: translateY(1px); }
+
+/* Subtle “ghost” style for Back */
+.control-btn.ghost {
+  background: #f8fafc;
+  border-color: #e5e7eb;
+  color: #374151;
+}
+
+/* Close as a compact circular icon */
+.control-btn.close {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+}
+
+/* Hide on intro when not needed (we’ll decide via JS, this is just here if you want a class toggle later) */
+.hidden { display: none !important; }
+
+/* Intro polish kept from earlier */
+.intro { text-align:center; padding:3rem 2rem; }
+.intro h1 { font-size:2rem; font-weight:700; margin-bottom:1rem; }
+.intro p { font-size:1.1rem; color:#555; margin-bottom:2rem; }
+.start-btn {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  color: #fff; font-size:1.1rem; padding:.75rem 2rem;
+  border:none; border-radius:999px; cursor:pointer;
+  transition: all .2s ease;
+}
+.start-btn:hover { background: linear-gradient(135deg, #15803d, #16a34a); box-shadow:0 4px 10px rgba(0,0,0,.08); transform: translateY(-1px); }
