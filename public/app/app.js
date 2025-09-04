@@ -1,10 +1,11 @@
 const root = document.getElementById("quiz-root");
 
 const RANGE_BANDS = [
-  { key: "short",  label: "Up to ~20 miles (<400Wh)",  isIn: (wh) => wh > 0 && wh < 400 },
-  { key: "medium", label: "20–40 miles (400–550Wh)",   isIn: (wh) => wh >= 400 && wh <= 550 },
-  { key: "long",   label: "40+ miles (>550Wh)",        isIn: (wh) => wh > 550 }
+  { key: "short",  label: "Up to ~20 miles",        isIn: (wh) => wh > 0 && wh < 400 },
+  { key: "medium", label: "20–40 miles",            isIn: (wh) => wh >= 400 && wh <= 550 },
+  { key: "long",   label: "40+ miles",              isIn: (wh) => wh > 550 }
 ];
+
 const BUDGET_BANDS = [
   { key: "b1", label: "Under £1,500", max: 1500 },
   { key: "b2", label: "£1,500–£2,000", max: 2000 },
