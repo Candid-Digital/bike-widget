@@ -1,126 +1,188 @@
-// --- helpers ---
-function money(n){ return n != null ? `£${Number(n).toLocaleString('en-GB',{maximumFractionDigits:0})}` : 'N/A'; }
-function escapeHtml(s){ return String(s||'').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m])); }
-function qs(name, fallback=''){ const u=new URL(location.href); return u.searchParams.get(name) ?? fallback; }
+const root = document.getElementById("quiz-root");
 
-// --- load data ---
-async function loadBikesJSON(url = '/bikes.json') {
-  const res = await fetch(url, { cache: 'no-store' });
-  if (!res.ok) throw new Error(`Failed to load bikes.json: ${res.status}`);
-  const data = await res.json();
-  return Array.isArray(data.items) ? data.items : [];
+const RANGE_BANDS = [
+  { key: "short", label: "Up to ~20 miles (<400Wh)", isIn: (wh) => wh > 0 && wh < 400 },
+  { key: "medium", label: "20–40 miles (400–550Wh)", isIn: (wh) => wh >= 400 && wh <= 550 },
+  { key: "long", label: "40+ miles (>550Wh)", isIn: (wh) => wh > 550 }
+];
+const BUDGET_BANDS = [
+  { key: "b1", label: "Under £1,500", max: 1500 },
+  { key: "b2", label: "£1,500–£2,000", max: 2000 },
+  { key: "b3", label: "£2,000–£2,500", max: 2500 },
+  { key: "b4", label: "£2,500–£3,000", max: 3000 },
+  { key: "b5", label: "£3,000–£4,000", max: 4000 },
+  { key: "b6", label: "£4,000+", max: Infinity },
+  { key: "unsure", label: "I'm not sure", max: Infinity }
+];
+const EQUIPPED_KEYS = ["equipped_lights","equipped_mudguards","equipped_rear_rack","equipped_kickstand","equipped_chainguard"];
+
+function currency(n) {
+  return n ? `£${Number(n).toLocaleString()}` : "—";
 }
 
-// --- scoring & matching ---
-function scoreBike(bike, answers) {
-  let score = 0;
-
-  if (answers.max_budget != null) {
-    const price = bike.price_sale_gbp ?? bike.price_rrp_gbp ?? Infinity;
-    if (price > answers.max_budget) return -1;
-  }
-
-  const useCases = (bike.use_cases || '').toLowerCase().split(',').map(s => s.trim()).filter(Boolean);
-  const surfaces = (bike.surfaces || '').toLowerCase().split(',').map(s => s.trim()).filter(Boolean);
-
-  if (answers.use_case && useCases.includes(answers.use_case.toLowerCase())) score += 1;
-  if (answers.terrain && surfaces.includes(answers.terrain.toLowerCase())) score += 1;
-
-  if (answers.range && bike.battery_wh) {
-    const wh = Number(bike.battery_wh);
-    const inferred = wh >= 600 ? 'long' : wh >= 450 ? 'medium' : 'short';
-    if (answers.range.toLowerCase() === inferred) score += 1;
-  }
-
-  if (answers.equipped && answers.equipped !== 'unsure') {
-    const want = answers.equipped.toLowerCase() === 'yes';
-    const equippedFlags = [
-      bike.equipped_lights, bike.equipped_mudguards,
-      bike.equipped_rear_rack, bike.equipped_kickstand, bike.equipped_chainguard
-    ].map(v => String(v || '').toLowerCase() === 'true');
-    const isEquipped = equippedFlags.some(Boolean);
-    if ((want && isEquipped) || (!want && !isEquipped)) score += 1;
-  }
-
-  return score;
+function isEquipped3Plus(bike) {
+  return EQUIPPED_KEYS.reduce((n, k) => n + (String(bike[k]).toLowerCase() === "true" ? 1 : 0), 0) >= 3;
 }
 
-function findTopMatches(bikes, answers, limit = 8, minScore = 0) {
-  const scored = [];
-  for (const b of bikes) {
-    const s = scoreBike(b, answers);
-    if (s >= minScore) scored.push({ bike: b, score: s });
-  }
-  scored.sort((a, b) =>
-    b.score - a.score ||
-    (a.bike.price_sale_gbp ?? a.bike.price_rrp_gbp ?? 0) -
-    (b.bike.price_sale_gbp ?? b.bike.price_rrp_gbp ?? 0)
-  );
-  return scored.slice(0, limit);
+function deriveRangeKey(wh) {
+  for (const band of RANGE_BANDS) if (band.isIn(Number(wh))) return band.key;
+  return "unknown";
 }
 
-// --- rendering ---
-function renderResults(scoredList, mountId='bike-results'){
-  const el = document.getElementById(mountId);
-  el.innerHTML = '';
-  if (!scoredList.length){ el.textContent = 'No matches. Try increasing your budget or relaxing filters.'; return; }
-
-  for (const {bike, score} of scoredList){
-    const price = bike.price_sale_gbp ?? bike.price_rrp_gbp;
-    const card = document.createElement('div');
-    card.className = 'bike-card';
-    card.innerHTML = `
-      <img src="${bike.image_url || ''}" alt="${escapeHtml(bike.model_name || bike.brand || 'Bike')}"/>
-      <div class="bike-meta">
-        <div><strong>${escapeHtml(bike.brand || '')}</strong> – ${escapeHtml(bike.model_name || '')}</div>
-        <div class="tags">${[bike.frame_style, bike.frame_size_label, bike.colour].filter(Boolean).join(' • ')}</div>
-        <div class="price">${money(price)}</div>
-        <div class="tags">score: ${score} / 4</div>
-        <div><a class="btn" href="${bike.product_url}" target="_blank" rel="noopener">View &nbsp;→</a></div>
-      </div>
-    `;
-    card.querySelector('.btn')?.addEventListener('click', () => {
-      // let host page know (for analytics) if embedded
-      parent?.postMessage?.({ type:'widget:purchaseClick', payload:{ sku_id: bike.sku_id, product_url: bike.product_url } }, '*');
-    });
-    el.appendChild(card);
+// Load bikes.json
+async function loadBikes() {
+  try {
+    const res = await fetch("/bikes.json");
+    return await res.json();
+  } catch {
+    return { items: [] };
   }
-
-  // notify host
-  parent?.postMessage?.({ type:'widget:resultsShown', payload:{ count: scoredList.length } }, '*');
 }
 
-// --- init ---
-(async function init(){
-  // read optional params from loader (retailer, theme, budget, etc.)
-  const initialBudget = Number(qs('budget')) || undefined;
+// Quiz state
+let step = 0;
+const answers = { use_case:"", terrain:"", range:"", equipped:"unsure", budget_band:"unsure" };
+let results = [];
 
-  const BIKES = await loadBikesJSON();
-  window.__BIKES__ = BIKES;
+function render() {
+  root.innerHTML = "";
 
-  // preload demo form from query string
-  if (initialBudget) document.getElementById('budget').value = String(initialBudget);
+  if (step === 0) {
+    renderQuestion("How will you most commonly use your e-bike?", 
+      ["commuting","leisure","hills","offroad","unsure"], "use_case");
+  }
+  else if (step === 1) {
+    renderQuestion("Where will you most commonly use your e-bike?", 
+      ["road","mixed","offroad","unsure"], "terrain", (val) => {
+        if (val==="road") return "Roads";
+        if (val==="mixed") return "Trails";
+        if (val==="offroad") return "Mountains";
+        return "Don't mind";
+      });
+  }
+  else if (step === 2) {
+    renderQuestion("How far will you typically go on a single charge?", 
+      RANGE_BANDS.map(b=>b.key).concat("unsure"), "range", (val) => {
+        const band = RANGE_BANDS.find(b=>b.key===val);
+        return band ? band.label : "I'm not sure / Don't mind";
+      });
+  }
+  else if (step === 3) {
+    renderQuestion("Are you looking for a fully equipped bike?", 
+      ["yes","no","unsure"], "equipped", (val) => val.charAt(0).toUpperCase()+val.slice(1));
+  }
+  else if (step === 4) {
+    renderQuestion("Do you have a budget in mind?", 
+      BUDGET_BANDS.map(b=>b.key), "budget_band", (val)=>{
+        return BUDGET_BANDS.find(b=>b.key===val)?.label || val;
+      });
+  }
+  else if (step === 5) {
+    renderResults();
+  }
+}
 
-  document.getElementById('apply').addEventListener('click', runSearch);
+function renderQuestion(title, options, field, labelFn=(x)=>x) {
+  const container = document.createElement("div");
+  const h2 = document.createElement("h2");
+  h2.textContent = title;
+  container.appendChild(h2);
 
-  // run once on load
-  runSearch();
-
-  function runSearch(){
-    const answers = {
-      use_case: val('#use_case'),
-      terrain: val('#terrain'),
-      range: val('#range'),
-      equipped: val('#equipped'),
-      max_budget: num('#budget')
+  const btns = document.createElement("div");
+  btns.className = "buttons";
+  options.forEach(opt=>{
+    const btn = document.createElement("button");
+    btn.textContent = labelFn(opt);
+    if (answers[field]===opt) btn.classList.add("active");
+    btn.onclick = ()=>{
+      answers[field]=opt;
+      step++;
+      if (step<=4) render();
+      else scoreAndShow();
     };
-    const top = findTopMatches(BIKES, answers, 8, 0);
-    renderResults(top);
+    btns.appendChild(btn);
+  });
+  container.appendChild(btns);
+  root.appendChild(container);
+}
+
+function scoreAndShow() {
+  loadBikes().then(data=>{
+    const items = data.items||[];
+    results = scoreBikes(items, answers);
+    step=5;
+    render();
+  });
+}
+
+function scoreBikes(items, answers) {
+  const budget = BUDGET_BANDS.find(b=>b.key===answers.budget_band);
+  const budgetMax = budget? budget.max:Infinity;
+
+  return items
+    .filter(b=>b.in_stock)
+    .map(b=>({
+      ...b,
+      _use_cases:(b.use_cases||"").split(",").map(s=>s.trim().toLowerCase()),
+      _terrain:(b.surfaces||"").toLowerCase(),
+      _range:deriveRangeKey(b.battery_wh),
+      _equipped:isEquipped3Plus(b),
+      _price:Number(b.price_sale_gbp||b.price_rrp_gbp||0)
+    }))
+    .filter(b=>b._price<=budgetMax)
+    .map(b=>{
+      let score=0, missed=[];
+      if (answers.use_case!=="unsure" && b._use_cases.includes(answers.use_case)) score++; else if(answers.use_case!=="unsure") missed.push("Use case");
+      if (answers.terrain!=="unsure" && b._terrain===answers.terrain) score++; else if(answers.terrain!=="unsure") missed.push("Terrain");
+      if (answers.range!=="unsure" && b._range===answers.range) score++; else if(answers.range!=="unsure") missed.push("Range");
+      if (answers.equipped!=="unsure") {
+        const want = answers.equipped==="yes";
+        if (b._equipped===want) score++; else missed.push("Equipped");
+      }
+      return { ...b, score, missed };
+    })
+    .sort((a,b)=> b.score-a.score || a._price-b._price)
+    .slice(0,5);
+}
+
+function renderResults() {
+  const container = document.createElement("div");
+  const h2 = document.createElement("h2");
+  h2.textContent = "Top Matches";
+  container.appendChild(h2);
+
+  const grid = document.createElement("div");
+  grid.className="results";
+
+  if (results.length===0) {
+    grid.textContent="No matches found.";
+  } else {
+    results.forEach(r=>{
+      const card=document.createElement("div");
+      card.className="result-card";
+
+      const img=document.createElement("img");
+      img.src=r.image_url;
+      card.appendChild(img);
+
+      const info=document.createElement("div");
+      info.className="info";
+      info.innerHTML=`
+        <div><strong>${r.brand} ${r.model_name}</strong> <span style="font-size:0.8em;opacity:0.6">Score ${r.score}/4</span></div>
+        <div>${currency(r.price_sale_gbp||r.price_rrp_gbp)}</div>
+        ${r.motor_brand?`<div>Motor: ${r.motor_brand}</div>`:""}
+        ${r.battery_wh?`<div>Battery: ${r.battery_wh}Wh</div>`:""}
+        ${r.frame_style?`<div>${r.frame_style}</div>`:""}
+        ${r.missed&&r.missed.length?`<div class="missed">Missed: ${r.missed.join(", ")}</div>`:""}
+        <a href="${r.product_url}" target="_blank">View bike</a>
+      `;
+      card.appendChild(info);
+      grid.appendChild(card);
+    });
   }
+  container.appendChild(grid);
+  root.appendChild(container);
+}
 
-  function val(sel){ return (document.querySelector(sel)?.value || '').trim() || undefined; }
-  function num(sel){ const v = Number(document.querySelector(sel)?.value || ''); return Number.isFinite(v) ? v : undefined; }
-
-  // let host know widget is ready
-  parent?.postMessage?.({ type:'widget:loaded' }, '*');
-})().catch(console.error);
+// Start
+render();
