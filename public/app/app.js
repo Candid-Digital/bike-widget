@@ -144,7 +144,12 @@ function renderQuestion(title, options, field, labelFn=(x)=>x){
   btns.className = "buttons";
   options.forEach(opt=>{
     const btn = document.createElement("button");
-    btn.textContent = labelFn(opt);
+
+    // Capitalise first letter unless labelFn overrides
+    const rawLabel = labelFn(opt);
+    const finalLabel = rawLabel.charAt(0).toUpperCase() + rawLabel.slice(1);
+
+    btn.textContent = finalLabel;
     if (answers[field]===opt) btn.classList.add("active");
     btn.onclick = ()=>{
       answers[field]=opt;
@@ -157,6 +162,7 @@ function renderQuestion(title, options, field, labelFn=(x)=>x){
   container.appendChild(btns);
   root.appendChild(container);
 }
+
 
 function scoreAndShow(){
   loadBikes().then(data=>{
