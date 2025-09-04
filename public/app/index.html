@@ -1,51 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Bike Match</title>
-  <link rel="stylesheet" href="./app.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bike Match Quiz</title>
+  <link rel="stylesheet" href="app/app.css" />
 </head>
 <body>
-  <main class="container">
-    <header class="hdr">
-      <h1>Find Your E-Bike</h1>
-    </header>
-
-    <!-- Simple demo controls (replace with your quiz UI later) -->
-    <section class="controls">
-      <label>Budget (max): £ <input id="budget" type="number" min="0" step="100" placeholder="2500"/></label>
-      <select id="use_case">
-        <option value="">Use case (any)</option>
-        <option>commuting</option>
-        <option>leisure</option>
-        <option>trail</option>
-        <option>hybrid</option>
-      </select>
-      <select id="terrain">
-        <option value="">Terrain (any)</option>
-        <option>flat</option>
-        <option>hilly</option>
-        <option>mixed</option>
-      </select>
-      <select id="range">
-        <option value="">Range (any)</option>
-        <option>short</option>
-        <option>medium</option>
-        <option>long</option>
-      </select>
-      <select id="equipped">
-        <option value="">Equipped?</option>
-        <option>yes</option>
-        <option>no</option>
-        <option>unsure</option>
-      </select>
-      <button id="apply">Apply</button>
-    </section>
-
-    <section id="bike-results"></section>
-  </main>
-
-  <script type="module" src="./app.js"></script>
+  <div id="quiz-root"></div>
+  <script src="app/app.js"></script>
 </body>
 </html>
