@@ -72,3 +72,38 @@ button:disabled {
   font-size: 0.8rem;
   color: #b91c1c;
 }
+
+.intro {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.start-btn {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.start-btn:hover {
+  background: linear-gradient(135deg, #15803d, #16a34a);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
