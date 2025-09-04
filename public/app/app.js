@@ -40,32 +40,57 @@ async function loadBikes() {
 }
 
 // Quiz state
-let step = -1; // start at intro instead of 0
+let step = -1; // start at intro
+let closed = false; // track closed state
 const answers = { use_case:"", terrain:"", range:"", equipped:"unsure", budget_band:"unsure" };
 let results = [];
 
 function render() {
   root.innerHTML = "";
 
+  // If closed
+  if (closed) {
+    const msg = document.createElement("div");
+    msg.className = "closed";
+    msg.innerHTML = `<p>Quiz closed. <button class="restart-btn">Restart</button></p>`;
+    msg.querySelector(".restart-btn").onclick = () => { closed = false; step = -1; render(); };
+    root.appendChild(msg);
+    return;
+  }
+
+  // Header with restart + close buttons
+  const header = document.createElement("div");
+  header.className = "quiz-header";
+
+  const restartBtn = document.createElement("button");
+  restartBtn.textContent = "Restart";
+  restartBtn.className = "header-btn";
+  restartBtn.onclick = () => { step = -1; render(); };
+
+  const closeBtn = document.createElement("button");
+  closeBtn.textContent = "×";
+  closeBtn.className = "header-btn close";
+  closeBtn.onclick = () => { closed = true; render(); };
+
+  header.appendChild(restartBtn);
+  header.appendChild(closeBtn);
+  root.appendChild(header);
+
+  // Intro screen
   if (step === -1) {
     const container = document.createElement("div");
     container.className = "intro";
-
     container.innerHTML = `
       <h1>Find Your Perfect E-Bike 🚴‍♀️</h1>
       <p>Answer 5 quick questions and we’ll match you with the best bikes in stock right now.</p>
       <button class="start-btn">Start Quiz</button>
     `;
-
-    container.querySelector(".start-btn").onclick = () => {
-      step = 0; // go to first question
-      render();
-    };
-
+    container.querySelector(".start-btn").onclick = () => { step = 0; render(); };
     root.appendChild(container);
     return;
   }
 
+  // Questions
   if (step === 0) {
     renderQuestion("How will you most commonly use your e-bike?", 
       ["commuting","leisure","hills","offroad","unsure"], "use_case");
@@ -100,7 +125,6 @@ function render() {
     renderResults();
   }
 }
-
 
 function renderQuestion(title, options, field, labelFn=(x)=>x) {
   const container = document.createElement("div");
