@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-04T04:33:48.786Z",
+  "generated_at": "2025-09-05T04:34:35.581Z",
   "items": [
     {
       "sku_id": "csid_ae3e59a4",
@@ -118,6 +118,21 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-folding/2025-cube-compact-hybrid-comfort-500-electric-compact-bike-in-flash-grey-smoke-26796/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Compact-Hybrid-Comfort-500-Ele_6b35934b81f00e67008f3b57765b4c70.jpg",
       "_model_id": "cub13"
+    },
+    {
+      "sku_id": "csid_cc5fb619",
+      "retailer_join_id": "23723",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Editor Hybrid Pro FE 400X 400Wh Performance SX Electric Bike In Black & Spectral",
+      "model_year": "2025",
+      "frame_size_label": "Medium 54cm",
+      "colour": "Black/Spectral",
+      "battery_wh": 400,
+      "in_stock": true,
+      "price_sale_gbp": 2499,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-pro-fe-400x-400wh-performance-sx-electric-bike-in-black-spectral-23723/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-Pro-FE-400X-400Wh-Performance-SX-Electric-Bike-In-Black-Spectraljpg_656b579c7d3966399430c3de95e45abb.jpg",
+      "_model_id": "cub15"
     },
     {
       "sku_id": "csid_9d3c5021",
@@ -327,6 +342,21 @@
       "price_sale_gbp": 3299,
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-pro-800-electric-bike-in-slab-grey-chrome-26959/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-Pro-800-Easy-_3e2178de57d587a3f16bb3f4bd9cf059.jpg",
+      "_model_id": "cub39"
+    },
+    {
+      "sku_id": "csid_64ec0722",
+      "retailer_join_id": "26960",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Kathmandu Hybrid Pro 800 Electric Bike In Slab Grey & Chrome Slab Grey & Chrome",
+      "model_year": "2025",
+      "frame_size_label": "Easy Entry Small 50cm",
+      "colour": "Slab Grey & Chrome",
+      "battery_wh": 800,
+      "in_stock": true,
+      "price_sale_gbp": 3299,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-pro-800-electric-bike-in-slab-grey-chrome-26960/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-Pro-800-Easy-_f226e23178fdc84ab8f6dc450cffc19f.jpg",
       "_model_id": "cub39"
     },
     {
@@ -1928,21 +1958,6 @@
       "_model_id": "hai2"
     },
     {
-      "sku_id": "csid_6dddc045",
-      "retailer_join_id": "28593",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 Adventr 8.5 Low Full Suspension Electric Mountain Bike In Mystery & Copper Gloss Mystery & Copper Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Medium 45cm",
-      "colour": "Mystery & Copper Gloss",
-      "battery_wh": 600,
-      "in_stock": true,
-      "price_sale_gbp": 4599,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-adventr-85-low-full-suspension-electric-mountain-bike-in-mystery-copper-gloss-28593/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-Adventr-85-Low-Full-Suspen_26e72d948d126a7a1a565506fe3e033d.jpg",
-      "_model_id": "hai2"
-    },
-    {
       "sku_id": "csid_df9f005b",
       "retailer_join_id": "28594",
       "brand": "Haibike",
@@ -2166,21 +2181,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/2025-haibike-alltrack-65-electric-hardtail-mountain-bike-in-grey-blue-yellow-gloss-28583/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-AllTrack-65-Electric-Hardt_f7c3bdce6a58f37f2f7bd2d08e4db06d.jpg",
       "_model_id": "hai12"
-    },
-    {
-      "sku_id": "csid_b8b9d38a",
-      "retailer_join_id": "32943",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 AllTrail 3 Full Suspension Electric Mountain Bike In Caramel, Orange & Black Gloss Caramel, Orange & Black Gloss",
-      "model_year": "2025",
-      "frame_size_label": "Large 47cm",
-      "colour": "Caramel, Orange & Black Gloss",
-      "battery_wh": 750,
-      "in_stock": true,
-      "price_sale_gbp": 3199,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-alltrail-3-full-suspension-electric-mountain-bike-in-caramel-orange-black-gloss-32943/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-Alltrail-3-Full-Suspension-_94ad5f294a938cf5d07df10ab71d9083.jpg",
-      "_model_id": "hai14"
     },
     {
       "sku_id": "csid_6c2c943d",
@@ -2844,22 +2844,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-motus-tour-ltd-lowstep-hub-gear-electric-bike-in-grey-twinkle-blue-29941/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Motus-Tour-Ltd-Low-Step-Hub-Gear-El_159ffe4b5b807423a63bbe22f146bb7e.jpg",
       "_model_id": "ral6"
-    },
-    {
-      "sku_id": "csid_ce81c957",
-      "retailer_join_id": "29939",
-      "brand": "Raleigh",
-      "model_name": "Raleigh 2025 Motus Tour Ltd Low-Step Electric Bike With Hub Gears In Pendulum Blue & Spruce Pendulum Blue & Spruce",
-      "model_year": "2025",
-      "frame_size_label": "Medium 51cm",
-      "colour": "Pendulum Blue & Spruce",
-      "motor_brand": "Bosch",
-      "battery_wh": 500,
-      "in_stock": true,
-      "price_sale_gbp": 1950,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-motus-tour-ltd-lowstep-hub-gear-electric-bike-in-blue-spruce-29939/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Motus-Tour-Ltd-Low-Step-Electric-Bi_8b5fa5f400f822c2df934a5f969386d9.jpg",
-      "_model_id": "ral7"
     },
     {
       "sku_id": "csid_eb86c827",
