@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-05T15:16:59.975Z",
+  "generated_at": "2025-09-06T04:33:14.666Z",
   "items": [
     {
       "sku_id": "csid_0ea1eb39",
@@ -342,6 +342,25 @@
       "_model_id": "cub33"
     },
     {
+      "sku_id": "csid_fc03ec98",
+      "retailer_join_id": "26892",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Kathmandu Hybrid EXC 800",
+      "model_year": "2025",
+      "category": "touring",
+      "use_cases": "commuting, leisure, hills",
+      "surfaces": "mixed",
+      "frame_styles": "crossbar",
+      "frame_size_label": "Cross Bar Large 58cm",
+      "colour": "Black & Prism",
+      "battery_wh": 800,
+      "in_stock": true,
+      "price_sale_gbp": 3599,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2025-cube-kathmandu-hybrid-exc-800-electric-bike-in-black-prism-26892/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Kathmandu-Hybrid-EXC-800-Elect_47ee3123464b53b77635247bf8949a12.jpg",
+      "_model_id": "cub34"
+    },
+    {
       "sku_id": "csid_c3125904",
       "retailer_join_id": "26894",
       "brand": "Cube",
@@ -530,25 +549,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/2025-cube-reaction-hybrid-performance-625-electric-hardtail-mountain-bike-in-golden-lime-black-27099/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Reaction-Hybrid-Performance-62_30484937a1fc4122bad3fcfd19dbd2dc.jpg",
       "_model_id": "cub66"
-    },
-    {
-      "sku_id": "csid_83b2bbfc",
-      "retailer_join_id": "31383",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Reaction Hybrid Performance 625 Allroad",
-      "model_year": "2025",
-      "category": "emtb",
-      "use_cases": "offroad, hills, leisure",
-      "surfaces": "offroad",
-      "frame_styles": "crossbar",
-      "frame_size_label": "XX-Large 56.5cm",
-      "colour": "Golden Lime & Black",
-      "battery_wh": 625,
-      "in_stock": true,
-      "price_sale_gbp": 2399,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/cube-reaction-hybrid-performance-625-allroad-golden-2025-goldenlime-black-31383/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Reaction-Hybrid-Performance-62_02e69d077fc68ad3e02e23c8a2f52a6a.jpg",
-      "_model_id": "cub65"
     },
     {
       "sku_id": "csid_03080763",
@@ -796,25 +796,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-cube-stereo-hybrid-one44-hpc-tm-electric-full-suspension-mountain-bike-in-dusty-olive-gold-27305/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Stereo-Hybrid-ONE44-HPC-TM-Ele_7b73d0ea8cf6b0b2ffbc7a4b4025ee3f.jpg",
       "_model_id": "cub109"
-    },
-    {
-      "sku_id": "csid_65fb892d",
-      "retailer_join_id": "27320",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Stereo Hybrid One77 HPC AT 800",
-      "model_year": "2025",
-      "category": "emtb",
-      "use_cases": "offroad, hills, leisure",
-      "surfaces": "offroad",
-      "frame_styles": "crossbar",
-      "frame_size_label": "Large",
-      "colour": "Carbon & Gold",
-      "battery_wh": 800,
-      "in_stock": true,
-      "price_sale_gbp": 6499,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-stereo-hybrid-one77-hpc-at-electric-full-suspension-mountain-bike-in-carbon-gold-27320/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Stereo-Hybrid-ONE77-HPC-AT-Electric_a50ce33679c52214e90276a2d164d0c7.jpg",
-      "_model_id": "cub113"
     },
     {
       "sku_id": "csid_532e6a82",
@@ -1924,25 +1905,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-cargo-bikes/2024-cube-longtail-sport-hybrid-725-electric-cargo-bike-in-flash-white-reflex-21639/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Longtail-Sport-Hybrid-725-Electric-Cargo-Bike-In-Flashwhite-Reflexjpg_99155d2254c3a3819214a7d84126c008.jpg",
       "_model_id": "cub160"
-    },
-    {
-      "sku_id": "csid_5966fde9",
-      "retailer_join_id": "22689",
-      "brand": "Cube",
-      "model_name": "Cube Reaction Hybrid Pro 500",
-      "model_year": "2025",
-      "category": "emtb",
-      "use_cases": "offroad, hills, leisure",
-      "surfaces": "offroad",
-      "frame_styles": "low step",
-      "frame_size_label": "Crossbar XX-Large 23 Inch",
-      "colour": "Flashwhite/Black",
-      "battery_wh": 500,
-      "in_stock": true,
-      "price_sale_gbp": 2599,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-hardtail/2024-cube-reaction-hybrid-pro-500-electric-hardtail-mountain-bike-in-flash-white-22689/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Reaction-Hybrid-Pro-500--Electric-Hardtail-Mountain-Bike-In-Flash-Whitejpg_82077a58d73c4cad60de2967228cb8aa.jpg",
-      "_model_id": "cub161"
     },
     {
       "sku_id": "csid_03f37996",
@@ -3884,6 +3846,26 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2026-raleigh-hockley-midstep-electric-bike-in-coffee-gloss-33572/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2026-Raleigh-Hockley-Mid-Step-Electric-B_a5a2474778c998c300d20930732c3524.jpg",
       "_model_id": "ral11"
+    },
+    {
+      "sku_id": "csid_fe4e6dc5",
+      "retailer_join_id": "33550",
+      "brand": "Raleigh",
+      "model_name": "Raleigh 2026 Motus With Derailleur Gears",
+      "model_year": "2026",
+      "category": "commuter",
+      "use_cases": "commuting, leisure",
+      "surfaces": "road",
+      "frame_styles": "low step",
+      "frame_size_label": "X-Small 41cm",
+      "colour": "Nightblue Gloss",
+      "motor_brand": "Bosch",
+      "battery_wh": 500,
+      "in_stock": true,
+      "price_sale_gbp": 2299,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2026-raleigh-motus-lowstep-electric-bike-with-derailleur-gears-in-nightblue-gloss-33550/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2026-Raleigh-Motus-Low-Step-Electric-Bik_5b2571c6c74776884d8136db6a007b10.jpg",
+      "_model_id": "ral12"
     },
     {
       "sku_id": "csid_44d27e3d",
