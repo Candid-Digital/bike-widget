@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-06T04:33:14.666Z",
+  "generated_at": "2025-09-07T04:33:21.225Z",
   "items": [
     {
       "sku_id": "csid_0ea1eb39",
@@ -190,25 +190,6 @@
       "_model_id": "cub16"
     },
     {
-      "sku_id": "csid_8664ffff",
-      "retailer_join_id": "23580",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Editor Hybrid SLX 400X 400Wh Performance SX",
-      "model_year": "2025",
-      "category": "commuter",
-      "use_cases": "commuting, leisure",
-      "surfaces": "road",
-      "frame_styles": "crossbar",
-      "frame_size_label": "Medium 54cm",
-      "colour": "SleekGrey/Spectral",
-      "battery_wh": 400,
-      "in_stock": true,
-      "price_sale_gbp": 2499,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-slx-400x-400wh-performance-sx-hub-gear-electric-bike-in-sleek-grey-spectral-23580/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-SLX-400X-400Wh-Performance-SX-Hub-Gear-Electric-Bike-In-Sleek-Grey-Spectraljpg_faa432e029100eac92eeb3001031c825.jpg",
-      "_model_id": "cub18"
-    },
-    {
       "sku_id": "csid_2f2baebf",
       "retailer_join_id": "23581",
       "brand": "Cube",
@@ -245,25 +226,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-slx-400x-400wh-performance-sx-hub-gear-electric-bike-in-sleek-grey-spectral-23582/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-SLX-400X-400Wh-Performance-SX-Hub-Gear-Electric-Bike-In-Sleek-Grey-Spectraljpg_faa432e029100eac92eeb3001031c825.jpg",
       "_model_id": "cub18"
-    },
-    {
-      "sku_id": "csid_41c47470",
-      "retailer_join_id": "23728",
-      "brand": "Cube",
-      "model_name": "Cube 2025 Editor Hybrid SLX FE 400X 400Wh Performance SX",
-      "model_year": "2025",
-      "category": "commuter",
-      "use_cases": "commuting, leisure",
-      "surfaces": "road",
-      "frame_styles": "crossbar",
-      "frame_size_label": "Large 58cm",
-      "colour": "SleekGrey/Spectral",
-      "battery_wh": 400,
-      "in_stock": true,
-      "price_sale_gbp": 2699,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-unisex-hybrid/2024-cube-editor-hybrid-slx-fe-400x-400wh-performance-sx-hub-gear-electric-bike-in-sleek-grey-spectral-23728/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2024-Cube-Editor-Hybrid-SLX-FE-400X-400Wh-Performance-SX-Hub-Gear-Electric-Bike-In-Sleek-Grey-Spectraljpg_f084b4b98e2afd376dc26cd95fddcc2a.jpg",
-      "_model_id": "cub19"
     },
     {
       "sku_id": "csid_836ce46f",
@@ -796,6 +758,25 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-cube-stereo-hybrid-one44-hpc-tm-electric-full-suspension-mountain-bike-in-dusty-olive-gold-27305/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Cube-Stereo-Hybrid-ONE44-HPC-TM-Ele_7b73d0ea8cf6b0b2ffbc7a4b4025ee3f.jpg",
       "_model_id": "cub109"
+    },
+    {
+      "sku_id": "csid_65fb892d",
+      "retailer_join_id": "27320",
+      "brand": "Cube",
+      "model_name": "Cube 2025 Stereo Hybrid One77 HPC AT 800",
+      "model_year": "2025",
+      "category": "emtb",
+      "use_cases": "offroad, hills, leisure",
+      "surfaces": "offroad",
+      "frame_styles": "crossbar",
+      "frame_size_label": "Large",
+      "colour": "Carbon & Gold",
+      "battery_wh": 800,
+      "in_stock": true,
+      "price_sale_gbp": 6499,
+      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-stereo-hybrid-one77-hpc-at-electric-full-suspension-mountain-bike-in-carbon-gold-27320/option/",
+      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Stereo-Hybrid-ONE77-HPC-AT-Electric_a50ce33679c52214e90276a2d164d0c7.jpg",
+      "_model_id": "cub113"
     },
     {
       "sku_id": "csid_532e6a82",
@@ -2455,25 +2436,6 @@
       "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-adventr-85-high-full-suspension-electric-mountain-bike-in-mystery-copper-gloss-28590/option/",
       "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-Adventr-85-High-Full-Suspe_e37a0b5aca9166878c4043c0af3cc618.jpg",
       "_model_id": "hai1"
-    },
-    {
-      "sku_id": "csid_dda18cac",
-      "retailer_join_id": "28592",
-      "brand": "Haibike",
-      "model_name": "Haibike 2025 Adventr 8.5 Low Full Suspension",
-      "model_year": "2025",
-      "category": "touring",
-      "use_cases": "commuting, leisure, hills",
-      "surfaces": "mixed",
-      "frame_styles": "crossbar",
-      "frame_size_label": "Small 40cm",
-      "colour": "Mystery & Copper Gloss",
-      "battery_wh": 600,
-      "in_stock": true,
-      "price_sale_gbp": 4599,
-      "product_url": "https://www.theelectricbikeshop.co.uk/shop/bikes/sub/electric-mtb-full-suspension/2025-haibike-adventr-85-low-full-suspension-electric-mountain-bike-in-mystery-copper-gloss-28592/option/",
-      "image_url": "https://www.theelectricbikeshop.co.uk/content/products/2025-Haibike-Adventr-85-Low-Full-Suspen_26e72d948d126a7a1a565506fe3e033d.jpg",
-      "_model_id": "hai2"
     },
     {
       "sku_id": "csid_0ff57efe",
